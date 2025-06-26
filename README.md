@@ -1,4 +1,4 @@
-# Productionization-of-ML-Systems
+# 1.Productionization-of-ML-Systems
 # 🏨 Hybrid Hotel Recommendation System
 
 This project is a part of a **Travel Capstone Project** which implements a **Hotel Recommendation System** using a hybrid approach combining **Collaborative Filtering** and **Content-Based Filtering**. The final model is deployed as a **Streamlit web application**, allowing users to enter their user ID and receive top hotel recommendations.
@@ -56,3 +56,59 @@ The dataset contains real user hotel bookings with the following features:
 ### Step 1: Install dependencies
 ```bash
 pip install pandas numpy scikit-learn streamlit pyngrok scikit-surprise
+
+
+
+# Save the README content as a markdown file
+
+readme_content = """
+# 👤2. Gender Classification API using BERT
+
+This project is part of a larger **Travel & Tourism Capstone**, and focuses on predicting **gender from a person's name** using a deep learning model. The final system is accessible via a **REST API built with Flask**, trained in **Google Colab**, and deployed using **Docker**, **ngrok**, and **Jenkins**.
+
+---
+
+## 🧠 Project Highlights
+
+| Component         | Tool/Tech Used               |
+|------------------|------------------------------|
+| Model             | BERT (`bert-base-uncased`)   |
+| Training          | Google Colab (PyTorch)       |
+| API               | Flask REST API               |
+| Deployment        | Ngrok + Docker               |
+| CI/CD Automation  | Jenkins (with Jenkinsfile)   |
+| Monitoring        | Console + Screenshot Logs    |
+
+---
+
+## 📁 Dataset Overview
+
+The dataset includes:
+- `name`: First name or full name
+- `gender`: Label (`Male` or `Female`)
+
+Data Cleaning Steps:
+- Removed null/duplicate values
+- Normalized genders (lowercased)
+- Label-encoded gender: `0 = Female`, `1 = Male`
+
+---
+
+## 🧪 Model Training
+
+- **Tokenizer**: `BertTokenizer`
+- **Model**: `BertForSequenceClassification`
+- **Accuracy Achieved**: ✅ **> 60%**
+- Fine-tuned on short name sequences
+- Trained in **Google Colab** using GPU (if available)
+
+---
+
+## 🚀 How to Run This Project (Colab Flow)
+
+### 1️⃣ Train & Save Model
+```python
+# Load dataset, preprocess
+# Tokenize names using BERT tokenizer
+# Train using BERT classifier head
+# Save model and tokenizer
