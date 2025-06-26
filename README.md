@@ -112,3 +112,40 @@ Data Cleaning Steps:
 # Tokenize names using BERT tokenizer
 # Train using BERT classifier head
 # Save model and tokenizer
+
+
+
+
+# ✈️ 3.Flight Price Prediction – Machine Learning Project
+
+This project aims to predict airline ticket prices using various features like airline, source, destination, total stops, and flight duration. The model was trained using **XGBoost Regressor** in Google Colab and deployed using **Gradio** on **Hugging Face Spaces**.
+
+---
+
+## 🚀 Project Highlights
+
+- ✅ Trained using real-world flight data
+- ✅ Cleaned and preprocessed in Colab
+- ✅ Trained with XGBoost Regressor
+- ✅ REST API using Flask (for local testing)
+- ✅ Frontend powered by Gradio
+- ✅ Deployed live on Hugging Face Spaces
+- ✅ Optional: Docker, Kubernetes, Jenkins, and MLflow compatible
+
+---
+
+## 🧠 Technologies Used
+
+- Python
+- Pandas, Numpy
+- Scikit-learn, XGBoost
+- Gradio (for Hugging Face app)
+- Flask (for local REST API)
+- Docker (optional)
+- Kubernetes, Jenkins, MLflow (optional)
+
+---
+
+## 🗂️ Project Structure
+
+
